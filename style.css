@@ -20,79 +20,54 @@
 
 body {
     background-color: #FBFDF2;
-    height: 100dvh;
+    height: 10vh;
 }
 
-header {
-    
-    padding: 40px 4%;
-}
-
-header.interface {
-    display: flex;
-    justify-content: center;
-
-}
-
-header a {
-    color: #474B4E;
+.header, a{
     text-decoration: none;
-    display: inline-block;
-    transition: .2s;
-
-
 }
 
-header nav.pesquisa a:hover {
-    color: black;
-    transform: scale(1.05);
+.header{
+    background:  #87888a ;
+    padding-inline: 16px;
 }
 
-header, nav, ul {
-    list-style-type: none;
+.nav{
+    max-width: 1280px;
+    height: 80px;
+    margin-inline: auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-header, nav.pesquisa ul li {
-    transform: scale(1.05);
+.logo{
+    font-size: 48px;
 }
 
-header, nav, ul {
-    list-style-type: none;
+.nav-list{
+    display: flex;
+    gap: 32px;
+    list-style: none;
 }
 
-header nav.pesquisa ul li {
-    padding: 0 40px;
-
-}
-
-.botao button {
-    padding: 10px 40px;
+.nav-list a{
     font-size: 18px;
-    font-weight: 600px;
-    background-color: rgb(189, 182, 182);
-    border: 0;
-    border-radius: 30px;
-    transition: .2s;
-
+    color: #fff;
+    padding-block: 16px;
 }
 
-
-.menu-botao button {
-    padding: 40px;
-    width: 30px;
-    font-size: 18px;
-    font-weight: 6px;
-    background-color: rgb(189, 182, 182);
-    border: 0;
-
-    transition: .2s;
+.hero{
+    height: calc(100vh -70px);
 
 }
-
-#flex {
-    text-align: center;
+.hamburger{
+    border: none;
+    background: none;
+    border-top: 3px solid #fff;
+    cursor: pointer;
 }
-
 
 /*Configuraçoes do inicio*/
 section#start{

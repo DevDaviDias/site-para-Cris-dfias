@@ -16,33 +16,22 @@
 </head>
 
 <body>
-    <header class="interface">
-        <div id="flex">
-            <div class="logo">
-                <a href="#"></a>
-            </div>
-            <div class="menu-botao">
-                <button class="udu" onclick="animarmenu()" id="btn-menu">
-                    <span class="linha"></span>
-                    <span class="linha"></span>
-                    <span class="linha"></span>
-                    <i class="bi bi-list"></i>
-                </button>
-            </div><!-- menu-botao logo-->
-            <nav class="pesquisa">
-                <ul>
-                    <li><a href="">Inicio</a></li>
-                    <li><a href="#">Sobre nós</a></li>
-                    <li><a href="#">Serviços</a></li>
-                    <li><a href="#">Contato</a></li>
-                </ul>
-
-        </div><!--fim div logo-->
-        </div> <!--fim div flex-->
+    <header class="header">
+        <nav class="nav">
+            <a href="#" class="logo">mg</a>
+            <button class="hamburger"></button>
+            <ul class="nav-list">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">sobre</a></li>
+                <li><a href="#">Serviços</a></li>
+                <li><a href="#">Contatos</a></li>
+            </ul>
+        </nav>
+ 
     </header>
 
 </body>
-<main>
+<main class="hero">
     <section id="start">
         <div class="corpo">
             <section id="inicio" class="inicio">
@@ -120,5 +109,6 @@
     
 
 </main>
+<script defer src="app.js"></script>
 
 </html>
