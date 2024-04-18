@@ -1,0 +1,186 @@
+@charset "utf-8";
+
+/*cores que vopu usar
+ branco : #FBFDF2
+ marrom : #6E7372
+ cinza :  #5A5E61
+ marrom clarinho : #ABA7A4
+ cinza : #474B4E
+ preto : #1E2325
+ marrom forte : #7E6F66
+ 
+ 
+ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    background-color: #FBFDF2;
+    height: 100dvh;
+}
+
+header {
+    
+    padding: 40px 4%;
+}
+
+header.interface {
+    display: flex;
+    justify-content: center;
+
+}
+
+header a {
+    color: #474B4E;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+
+
+}
+
+header nav.pesquisa a:hover {
+    color: black;
+    transform: scale(1.05);
+}
+
+header, nav, ul {
+    list-style-type: none;
+}
+
+header, nav.pesquisa ul li {
+    transform: scale(1.05);
+}
+
+header, nav, ul {
+    list-style-type: none;
+}
+
+header nav.pesquisa ul li {
+    padding: 0 40px;
+
+}
+
+.botao button {
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600px;
+    background-color: rgb(189, 182, 182);
+    border: 0;
+    border-radius: 30px;
+    transition: .2s;
+
+}
+
+
+.menu-botao button {
+    padding: 40px;
+    width: 30px;
+    font-size: 18px;
+    font-weight: 6px;
+    background-color: rgb(189, 182, 182);
+    border: 0;
+
+    transition: .2s;
+
+}
+
+#flex {
+    text-align: center;
+}
+
+
+/*Configuraçoes do inicio*/
+section#start{
+    margin: 80px;
+}
+section#start, h1{
+    text-align: center;
+    font-size: 25px;
+}
+section#start, p{
+    font-size: small;
+    text-align: center;
+    margin: 10px;
+}
+img{
+    height: 400px;
+    max-width: 800px;
+   justify-content: center;
+   border-radius: 20px 20px 20px 20px;
+   display: block;
+   margin: 0 auto;
+   background-color: #7E6F66;
+  
+}
+.botao1{
+    display: none;
+}
+
+/*configuracao do sobre*/
+
+#sobre{
+    background-color: #c1bebc;
+    border-radius: 2%;
+   padding: 40px 4%;
+}
+section,text, h3{
+    font-size: 15px ;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+section,text, h2{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 80px;
+}
+section,text, p{
+    text-align: left;
+}
+/* config no port*/
+section.especialidades {
+    padding: 180px 4%;
+    color: #ABA7A4;
+
+}
+
+section.especialidades .lex {
+    gap: 60px;
+}
+
+.especialidades .especialidadebox {
+    color: rgb(62, 66, 66);
+    padding: 40px;
+    border-radius: 20px;
+    border: 2px solid black;
+    margin-top: 45px;
+    transition: 0.2s;
+}
+
+.especialidades .especialidadebox:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.55);
+
+}
+
+.especialidades .especialidadebox i {
+    font-size: 70px;
+    color: rgb(15, 14, 14);
+    transform: translate(-50%);
+}
+
+.especialidades .especialidadebox h3 {
+    font-size: 28px;
+    margin: 15px 0;
+   
+    } 
+.especialidades .especialidadebox ,i{
+        text-align: center;
+        
+       
+    }
