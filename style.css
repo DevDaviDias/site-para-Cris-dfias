@@ -185,6 +185,11 @@ section.especialidades .lex {
         
        
     }
+    /*contatos*/
+    .contatos.amigo{
+        width: 10px;
+        height: 10px;
+    }
 
     @media (max-width: 750px){
         .hamburger{
@@ -243,4 +248,4 @@ section.especialidades .lex {
             top: -7px;
         }
     }
-    }
+    
