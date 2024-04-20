@@ -200,7 +200,7 @@ section.especialidades .lex {
     .especialidades .especialidadebox P{
         font-size: medium;
     }
-    .especialidades .especialidadebox p span{
+    .especialidade p > span{
         font-size: larger;
     }
 .especialidades .especialidadebox ,i{
@@ -209,6 +209,9 @@ section.especialidades .lex {
        
     }
     /*contatos*/
+    section#contatos h2{
+        
+    }
     section#contatos p{
         font-size: large;
 
