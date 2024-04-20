@@ -19,7 +19,7 @@
 }
 
 body {
-    background-color: #FBFDF2;
+    background-color: #fefefe;
     height: 10vh;
 }
 
@@ -28,11 +28,12 @@ body {
 }
 
 .header{
-    background:  #87888a ;
+    background:  #fffefe ;
     padding-inline: 16px;
 }
 
 .nav{
+    
     max-width: 1280px;
     height: 80px;
     margin-inline: auto;
@@ -49,6 +50,7 @@ body {
 .logo img{
     align-items: left;
     height: 50px;
+    opacity: ;
 }
 
 .nav-list{
@@ -71,8 +73,9 @@ body {
     display: block;
     border: none;
     background: none;
-    border-top: 3px solid #fff;
+    border-top: 3px solid #020202;
     cursor: pointer;
+   
 }
 
 .hamburger::before {
@@ -80,7 +83,7 @@ body {
     display: block;
     width: 30px;
     height: 3px;
-    background: #fff;
+    background: #000000;
     margin-top: 5px;
 }
 
@@ -89,7 +92,7 @@ body {
     display: block;
     width: 30px;
     height: 3px;
-    background: #fff;
+    background: #000000;
     margin-top: 5px;
     position: relative;
     transition: 0.3s;
@@ -97,26 +100,32 @@ body {
 /*Configuraçoes do inicio*/
 main{
     margin-top: 50px;
+    
 }
 section#start h1{
-    margin-top: 10px;
-    text-align: center;
+    margin: 20px;
+    text-align: left;
+    font-weight: bolder;
     font-size: 25px;
+    
 }
-section#start, p{
+span{
+    color: #71645c;
+}
+section#start p{
     font-size: 14px;
-    text-align: center;
+    text-align: left;
     margin: 10px;
 }
 section#start img{
-    height: 400px;
+    height: 300px;
     max-width: 800px;
    justify-content: center;
-   border-radius: 20px 20px 20px 20px;
+   border-radius: 40px 40px 40px 40px;
    display: block;
    margin: 0 auto;
-   background-color: #7E6F66;
-  
+   background-color: #97918d;
+   box-shadow: 5px 5px 5px #000000;
 }
 .botao1{
     display: none;
@@ -125,11 +134,12 @@ section#start img{
 /*configuracao do sobre*/
 
 #sobre{
-    background-color: #c1bebc;
+    background-color: #bcb0a7;
     border-radius: 2%;
    padding: 40px 4%;
+   box-shadow: 1px 1px 1px #000000;
 }
-section,text, h3{
+#sobre .text h3{
     font-size: 15px ;
     text-align: center;
     margin-bottom: 50px;
@@ -140,18 +150,25 @@ section,text, h2{
     font-size: 25px;
     margin-bottom: 80px;
 }
-section,text, p{
+#sobre .text h2{
+    height: 30px;
+}
+#sobre .text p{
     text-align: left;
+    font-size: small;
 }
 /* config no port*/
 section.especialidades {
     padding: 10px 4%;
-    color: #595353;
+    color: #3a3430;
 
 }
 
 section.especialidades .lex {
     gap: 60px;
+}
+.especialidades .interface .titulo span{
+    color: #927b6c;
 }
 
 .especialidades .especialidadebox {
@@ -186,15 +203,13 @@ section.especialidades .lex {
        
     }
     /*contatos*/
-    .contatos.amigo{
-        width: 10px;
-        height: 10px;
-    }
+    
 
     @media (max-width: 750px){
         .hamburger{
             display: block;
             z-index: 1;
+            
         }
         .nav-list{
             position: fixed;
