@@ -197,6 +197,12 @@ section.especialidades .lex {
     margin: 15px 0;
    
     } 
+    .especialidades .especialidadebox P{
+        font-size: medium;
+    }
+    .especialidades .especialidadebox p span{
+        font-size: larger;
+    }
 .especialidades .especialidadebox ,i{
         text-align: center;
         
