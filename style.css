@@ -266,6 +266,13 @@ section.especialidades .lex {
     flex{
         display: flex;
     }
+    
+    section#contatos h6{
+        margin: 10px;
+    }
+    section#contatos p{
+        margin: 10px;
+    }
 
     @media (max-width: 750px){
         .hamburger{
