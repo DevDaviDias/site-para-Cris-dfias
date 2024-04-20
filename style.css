@@ -50,7 +50,7 @@ body {
 .logo img{
     align-items: left;
     height: 50px;
-    opacity: ;
+   
 }
 
 .nav-list{
@@ -203,7 +203,53 @@ section.especialidades .lex {
        
     }
     /*contatos*/
+    section#contatos p{
+        font-size: large;
+
+    }
+    .amigo img{
+        height: 200px;
+        width: 200px;
+        border-radius: 20px;
+        box-shadow: 5px 5px 5px black;
+    }
+    /*footer*/
+    footer {
+        padding: 40px;
     
+    }
+    
+    footer .line-footer {
+        padding: 20px 0;
+        border-radius: 1px;
+    }
+    
+    footer .line-footer p i {
+        font-size: 22px;
+    }
+    
+    footer .line-footer p a {
+        color: rgb(45, 46, 46);
+    
+    }
+    
+    .vex {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .borda {
+        border-top: 2px solid rgb(60, 59, 59);
+    }
+    
+    footer img {
+        height: 90px;
+        width: 90px;
+        border-radius: 50%;
+    }
+    flex{
+        display: flex;
+    }
 
     @media (max-width: 750px){
         .hamburger{
